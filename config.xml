@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+    <dimension x="40" y="40" z="40"/>
+    <robots>
+        <robot>
+            <start x="10" y="20" z="30"/>    
+        </robot>
+        <robot>
+            <start x="10" y="20" z="30"/>
+        </robot>
+    </robots>
+    <starts>
+        <coord x="10" y="0" z="10"/>
+        <coord x="10" y="0" z="10"/>
+    </starts>
+    <ends>
+        <coord x="10" y="0" z="10"/>
+        <coord x="10" y="0" z="10"/>
+    </ends>
+    <obstacles>
+        <coord x="10" y="10" z="10"/>
+        <coord x="10" y="10" z="11"/>
+        <coord x="10" y="10" z="12"/>
+    </obstacles>
+</configuration>
